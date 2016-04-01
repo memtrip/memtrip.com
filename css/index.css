@@ -1,0 +1,98 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #FFFCFD;
+}
+
+html, body, div, ul, li {
+	font-family: 'Roboto', sans-serif;
+	color: #211c1d;
+}
+
+li {
+	margin-top: 20px;
+}
+
+a, a:visited {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #0000B2;
+}
+
+.logo_container {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+.caption {
+	font-size: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.caption2 {
+	font-size: 28px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.caption3 {
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.caption em, .caption2 em {
+	display: inline-block;
+	background-color: #00f0ff;
+	padding: 10px;
+}
+
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+	.logo,
+	.footer {
+    	padding-right: 0;
+    	padding-left: 0;
+	}
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
