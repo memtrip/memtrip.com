@@ -28,7 +28,20 @@ a:hover {
 
 .logo_container {
 	margin-top: 80px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.social_media {
+	width: 180px;
+}
+
+.social_col {
+	float: left;
+}
+
+.social_img {
+	width: 40px;
+	margin-right: 10px;
 }
 
 .logo {
@@ -36,13 +49,13 @@ a:hover {
 }
 
 .caption {
-	font-size: 40px;
-	padding-top: 40px;
+	font-size: 38px;
+	margin-top: 20px;
 	padding-bottom: 20px;
 }
 
 .caption2 {
-	font-size: 28px;
+	font-size: 22px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 10px;
@@ -51,7 +64,6 @@ a:hover {
 
 .caption3 {
 	font-size: 18px;
-	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 10px;
 	padding-bottom: 20px;
