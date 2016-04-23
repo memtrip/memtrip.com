@@ -73,6 +73,7 @@ a:hover {
 	display: inline-block;
 	background-color: #00f0ff;
 	padding: 10px;
+	padding-right: 15px;
 }
 
 .footer {
