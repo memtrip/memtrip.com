@@ -1,111 +1,115 @@
-html, body {
+html, body, h1, p {
 	padding: 0px;
 	margin: 0px;
 }
 
 body {
-	background-color: #FFFCFD;
+	background-color: #1b1b1b;
 }
 
-html, body, div, ul, li {
-	font-family: 'Roboto', sans-serif;
-	color: #211c1d;
+html, body, div, h1, p, ul, li {
+	font-family: 'Droid Serif', serif;
+	color: #FFFFFF;
+	text-align: left;
 }
 
-li {
-	margin-top: 20px;
+h1 {
+	font-size: 35px;
+	line-height: 1.34;
 }
 
-a, a:visited {
-	text-decoration: underline;
-	color: #0000FF;
+p {
+	font-size: 22px;
+	line-height: 1.59;
+	text-align: left;
+}
+
+a {
+	color: #ec8664;
+	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #0000B2;
 }
 
-.logo_container {
-	margin-top: 80px;
-	margin-bottom: 20px;
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
 }
 
-.social_media {
-	width: 180px;
+.divider {
+	background-color: #bc8386;
+	height: 4px;
+	width: 145px;
 }
 
-.social_col {
-	float: left;
+.divider2 {
+	background-color: #7c7fab;
+	height: 4px;
+	width: 145px;	
 }
 
-.social_img {
-	width: 40px;
-	margin-right: 10px;
+div#container {
+	background-image: url('../resources/background.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+
+	position: absolute;
+	right: 0;
+
+	margin-top: 88px;
+	width: 990px;
+	height: 2165px;
 }
 
-.logo {
-	margin: 0 auto;
+div#content_col  {
+	position: absolute;
+	width: 460px;
 }
-
-.caption {
-	font-size: 34px;
-	margin-top: 60px;
-	padding-bottom: 20px;
-}
-
-.caption2 {
-	font-size: 26px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-}
-
-.caption3 {
-	font-size: 18px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-}
-
-.caption em, .caption2 em {
-	display: inline-block;
-	background-color: #00f0ff;
-	padding: 10px;
-	padding-right: 15px;
-}
-
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-@media screen and (min-width: 768px) {
-	.logo,
-	.footer {
-    	padding-right: 0;
-    	padding-left: 0;
+	.content_title {
+		margin-top: 32px;
 	}
-}
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
+	.content_blurb {
+		margin-top: 374px;
+	}
+		.content_blurb p {
+			margin-top: 16px;
+		}
+
+	.content_products {
+		margin-top: 170px;
+	}
+		.content_products p {
+			margin-top: 16px;
+		}
+
+	.content_logos {
+		margin-top: 170px;
+	}
+		.content_logos li {
+			margin-bottom: 40px;
+		}
+
+	.content_contact {
+		margin-top: 170px;
+	}
+		.content_contact li {
+			margin-bottom: 8px;
+			font-size: 22px;
+			line-height: 2.18;
+		}	
+
+div#design_col {
+	background-image: url('../resources/illustration.png');
+
+	position: absolute;
+	right: 0;
+
+	margin-right: 56px;
+	margin-top: 220px;
+	width: 511px;
+	height: 224px;
 }
