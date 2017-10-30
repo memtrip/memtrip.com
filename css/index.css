@@ -51,6 +51,10 @@ ul {
 	width: 145px;	
 }
 
+.clear_right {
+	clear: right;
+}
+
 div#container {
 	background-image: url('../resources/background.png');
 	background-repeat: no-repeat;
@@ -68,8 +72,19 @@ div#content_col  {
 	position: absolute;
 	width: 460px;
 }
+	.content_logo {
+		margin: 0px;
+	}
+
 	.content_title {
 		margin-top: 32px;
+		width: 380px;
+	}
+
+	.content_design_mobile {
+		display: none;
+		float: right;
+		margin-top: 6px;
 	}
 
 	.content_blurb {
@@ -92,6 +107,22 @@ div#content_col  {
 		.content_logos li {
 			margin-bottom: 40px;
 		}
+			.logo_kpmg {
+				width: 118px;
+				height: 48px;
+			}
+			.logo_deloitte {
+				width: 179px;
+				height: 34px;
+			}
+			.logo_santander {
+				width: 282px;
+				height: 51px;
+			}
+			.logo_clydesdale_bank {
+				width: 382px;
+				height: 46px;
+			}
 
 	.content_contact {
 		margin-top: 170px;
@@ -112,4 +143,81 @@ div#design_col {
 	margin-top: 220px;
 	width: 511px;
 	height: 224px;
+}
+
+@media (max-width: 996px) {
+
+	div#container {
+		background: none;
+		position: static;
+		margin: 0 auto;
+		margin-top: 74px;
+		width: 320px;
+	}
+
+	div#content_col {
+		position: static;
+		width: 320px;
+	}
+		.content_logo {
+			margin-left: 29px;
+		}
+
+		.content_title {
+			margin-left: 29px;
+			margin-top: 32px;
+			width: 261px;
+		}
+
+		.content_design_mobile {
+			display: block;
+		}
+
+		.content_blurb {
+			margin-left: 29px;
+			margin-top: 38px;
+			width: 261px;
+		}
+
+		.content_products {
+			margin-left: 29px;
+			margin-top: 109px;
+			width: 261px;
+		}
+
+		.content_logos {
+			margin-left: 29px;
+			margin-top: 110px;
+			width: 261px;
+		}
+			.content_logos li {
+				margin-bottom: 26.7px;
+			}
+				.logo_kpmg {
+					width: 79.7px;
+					height: 30.3px;
+				}
+				.logo_deloitte {
+					width: 125px;
+					height: 26px;
+				}
+				.logo_santander {
+					width: 191px;
+					height: 33px;
+				}
+				.logo_clydesdale_bank {
+					width: 261px;
+					height: 33px;
+				}
+
+		.content_contact {
+			margin-left: 29px;
+			margin-top: 110px;
+			margin-bottom: 166px;
+			width: 261px;
+		}
+
+	div#design_col {
+		display: none;
+	}
 }
