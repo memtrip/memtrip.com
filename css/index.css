@@ -218,6 +218,9 @@ div#design_col {
 			margin-bottom: 166px;
 			width: 261px;
 		}
+			.content_contact li {
+				line-height: 1.59;
+			}
 
 	div#design_col {
 		display: none;
