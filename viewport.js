@@ -1,14 +1,12 @@
-var _isMobile = false;
-
 $(document).ready(function() {
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-
-		_isMobile = true;
 
 		var ww = ( $(window).width() < window.screen.width ) ? $(window).width() : window.screen.width; //get proper width
 		var mw = 480; // min width of site
 		var ratio =  ww / mw; //calculate ratio
 		
+		console.log('ratio: ' + ratio);
+
 		if( ww < mw){ //smaller than minimum size
 			$('#Viewport').attr('content', 'initial-scale=' + ratio + ', maximum-scale=' + ratio + ', minimum-scale=' + ratio + ', user-scalable=yes, width=' + ww);
 		}else{ //regular size
