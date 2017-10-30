@@ -83,7 +83,9 @@ div#content_col  {
 
 	.content_design_mobile {
 		display: none;
-		float: right;
+		height: 259px;
+		position: absolute;
+		right: 0;
 		margin-top: 6px;
 	}
 
@@ -175,7 +177,7 @@ div#design_col {
 
 		.content_blurb {
 			margin-left: 29px;
-			margin-top: 38px;
+			margin-top: 297px;
 			width: 261px;
 		}
 
