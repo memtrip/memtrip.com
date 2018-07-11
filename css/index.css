@@ -48,7 +48,7 @@ ul {
 .divider2 {
 	background-color: #7c7fab;
 	height: 4px;
-	width: 145px;	
+	width: 145px;
 }
 
 .clear_right {
@@ -121,6 +121,10 @@ div#content_col  {
 				width: 282px;
 				height: 51px;
 			}
+			.logo_rbs {
+				width: 258px;
+				height: 70px;
+			}
 			.logo_clydesdale_bank {
 				width: 382px;
 				height: 46px;
@@ -133,7 +137,7 @@ div#content_col  {
 			margin-bottom: 8px;
 			font-size: 22px;
 			line-height: 2.18;
-		}	
+		}
 
 div#design_col {
 	background-image: url('../resources/illustration.png');
