@@ -51,6 +51,12 @@ ul {
 	width: 145px;
 }
 
+.divider3 {
+	background-color: #7eb384;
+	height: 4px;
+	width: 145px;
+}
+
 .clear_right {
 	clear: right;
 }
