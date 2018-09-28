@@ -1,0 +1,20 @@
+html, body, p {
+	padding: 8px;
+	margin: 8px;
+}
+
+html, body, div, h1, p, ul, li {
+	font-family: 'Droid Serif', serif;
+	color: #121212;
+	text-align: left;
+  line-height: 1.8;
+}
+
+a {
+	color: #ec8664;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
