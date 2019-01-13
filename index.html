@@ -1,124 +1,913 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-
-		<meta name="title" content="memtrip" />
-		<meta name="description" content="The wheel put the giants out of business." />
-
-		<meta name="twitter:card" content="The wheel put the giants out of business.">
-		<meta name="twitter:site" content="@memtrip">
-		<meta name="twitter:title" content="memtrip">
-		<meta name="twitter:description" content="We are a digital consultancy with a track record of delivering end to end software solutions to the financial services sector. We strive to develop simple solutions with meaningful test coverage and responsive user interfaces.">
-		<meta name="twitter:creator" content="@memtrip">
-		<meta name="twitter:image" content="https://memtrip.com/resources/meta.png">
-
-		<meta property="og:title" content="memtrip" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://memtrip.com" />
-		<meta property="og:image" content="https://memtrip.com/resources/meta.png" />
-		<meta property="og:description" content="The wheel put the giants out of business." />
-		<meta property="og:site_name" content="memtrip" />
-
-		<title>memtrip</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"/>
-		<link href="css/index.css" rel="stylesheet" type="text/css"/>
-		<link rel="icon" href="resources/fav-memtrip.png">
-
-		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="viewport.js"></script>
-
-		<script type="text/javascript">
-			var language = navigator.language || navigator.browserLanguage;
-
-			if (language.indexOf('zh') > -1) {
-				document.location.href = 'cn/index.html';
-			}
-		</script>
-
-	</head>
-	<body>
-
-		<div id="container">
-
-			<div id="content_col">
-
-				<img class="content_logo" src="resources/asset-1.png" />
-
-				<h1 class="content_title">The wheel put the giants out of business.</h1>
-
-				<div class="content_design_mobile">
-
-					<img src="resources/group.png" />
-
-				</div>
-
-				<div class="content_blurb">
-
-					<div class="divider">&nbsp;</div>
-
-					<p>
-						We are a digital consultancy with a track record of delivering
-						end to end software solutions to the financial services sector in the United Kingdom.
-						We strive to develop simple solutions with meaningful
-						test coverage and responsive user interfaces.
-					</p>
-
-				</div>
-
-				<div class="content_products">
-
-					<div class="divider2">&nbsp;</div>
-
-					<p>
-						 After the lessons learned in the financial services sector, we now focus our efforts
-						 on the EOS ecosystem.
-						 <br /><br />
-						 We are the developers of <a href="https://play.google.com/store/apps/details?id=com.memtrip.eosreach">EOS Reach</a>,
-						 an open source EOS wallet for Android, we developed the <a href="https://github.com/memtrip/eos-jvm">eos-jvm</a> SDK
-						 to aid others in developing robust and consistent Android apps that interact with EOS.
-					</p>
-
-				</div>
-
-				<div class="content_products">
-
-					<div class="divider3">&nbsp;</div>
-
-					<p>
-						We envisage a second generation of Dapp developed natively for Android and iOS,
-						slick mobile experiences that attempt to hide all knowledge of the underlying blockchain technology.
-						This new generation of Dapps will utilise multisig, inter-blockchain communication, smart contracts and the decentralised
-						nature of EOS to empower existing business processes.
-						<br /><br />
-						Let's build the future of EOS on mobile together!
-						<br /><br />
-						<a href="code_of_conduct.html"><strong><em>memtripblock</em></strong> code of conduct</a>.
- 					</p>
-
-				</div>
-
-				<ul class="content_logos">
-					<li><img class="logo_deloitte" src="resources/deloitte-logo.png" alt="Deloitte." /></li>
-					<li><img class="logo_kpmg" src="resources/kpmg-logo.png" alt="KPMG" /></li>
-					<li><img class="logo_santander" src="resources/santander-logo.png" alt="Santander" /></li>
-					<li><img class="logo_rbs" src="resources/rbs-logo.png" alt="RBS" /></li>
-					<li><img class="logo_clydesdale_bank" src="resources/clydesdale-bank-svg.png" alt="Clydesdale Bank" /></li>
-				</ul>
-
-				<ul class="content_contact">
-					<li><a href="mailto:sam@memtrip.com">sam@memtrip.com</a> / Engineering</li>
-					<li><a href="mailto:angie@memtrip.com">angie@memtrip.com</a> / UX &amp; Design</li>
-				</ul>
-
-			</div>
-
-			<div id="design_col">&nbsp;</div>
-
-		</div>
-
-	</body>
-
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/desktop.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(27, 27, 27, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktop"/>
+        <div class="bp3-desktophd">
+            <img anima-src="./img/desktop-hd-rectangle-2-copy.png" class="bp3-rectangle2copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="bp3-illustration">
+                <img anima-src="./img/tablet-portrait-rectangle-2.png" class="bp3-rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-giant1-memtrip@2x.png" class="bp3-giant1memtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-giant2-memtrip@2x.png" class="bp3-giant2memtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-blueprint-memtrip@2x.png" class="bp3-blueprintmemtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-hd-chisel-memtrip@2x.png" class="bp3-chiselmemtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            </div>
+            <div class="bp3-content">
+                <img anima-src="./img/desktop-asset-1@2x.png" class="bp3-asset1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="bp3-people">
+                    <div class="bp3-people1">
+                        People
+                    </div>
+                    <div class="bp3-rectangle4copy2">
+                    </div>
+                    <div class="bp3-sam">
+                        <div class="bp3-sam1">
+                            <img anima-src="./img/desktop-hd-sam@2x.png" class="bp3-sam2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp3-info">
+                            <a href="https://www.linkedin.com/in/samuel-kirton-5a394255/" target="_blank">
+                                <div class="bp3-samuelkirtonsoft">
+                                    <span class="bp3-span1">Samuel Kirton</span><span class="bp3-span2"> / Software Developer</span>
+                                </div>
+                            </a>
+                            <div class="bp3-experiencedmobilea">
+                                Experienced mobile app / software developer seeking out the most robust reactive architectures. Sam has played a vital role in delivering multiple end-to-end mobile solutions to major banking and fintech clients in the UK.
+                            </div>
+                            <a href="mailto:sam@memtrip.com" target="_blank">
+                                <div class="bp3-sammemtripcom">
+                                    sam@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bp3-angie">
+                        <div class="bp3-angie1">
+                            <img anima-src="./img/desktop-hd-angie@2x.png" class="bp3-angie2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp3-info">
+                            <a href="https://www.linkedin.com/in/newtonangie/" target="_blank">
+                                <div class="bp3-angienewtonuser">
+                                    <span class="bp3-span1">Angie Newton</span><span class="bp3-span2"> / User Experience &amp; Design</span>
+                                </div>
+                            </a>
+                            <div class="bp3-amultidisciplined">
+                                A multi disciplined designer looking to bridge the gap between technical solutions and real world problems. Angie creates brands, interfaces and design strategies that encourage people to embrace new platforms and technologies.
+                            </div>
+                            <a href="mailto:angie@memtrip.com" target="_blank">
+                                <div class="bp3-angiememtripcom">
+                                    angie@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp3-thewheelputthegicopy">
+                    The wheel put the giants out of business.
+                </div>
+                <div class="bp3-icons">
+                    <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                        <div class="bp3-telegram">
+                            <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                                <img anima-src="./img/desktop-hd-telegram@2x.png" class="bp3-telegram1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </a>
+                        </div>
+                    </a>
+                    <a href="https://github.com/memtrip" target="_blank">
+                        <img anima-src="./img/desktop-hd-github-mark-light-120px-plus@2x.png" class="bp3-githubmarklight120pxplus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <a href="https://twitter.com/memtrip" target="_blank">
+                        <img anima-src="./img/desktop-twitter-logo-silhouette@2x.png" class="bp3-twitterlogosilhouette" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <a href="https://steemit.com/@memtrip" target="_blank">
+                        <div class="bp3-steemitlogo">
+                            <img anima-src="./img/tablet-portrait-shape 17@2x.png" class="bp3-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                    </a>
+                </div>
+                <div class="bp3-intro">
+                    <div class="bp3-thefutureofdapps">
+                        The future of DApps is mobile.
+                    </div>
+                    <div class="bp3-rectangle4">
+                    </div>
+                    <div class="bp3-memtripisatthefo">
+                        memtrip is at the forefront of EOS mobile app development. We develop open source apps and libraries, with every release we bring EOS closer to mass market adoption.
+                    </div>
+                    <a href="https://www.memtrip.com/code_of_conduct.html" target="_blank">
+                        <div class="bp3-group">
+                            <div class="bp3-rectangle4copy3">
+                            </div>
+                            <div class="bp3-votememtripblock">
+                                <span class="bp3-span1">VOTE memtripbloc</span><span class="bp3-span2">k</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="bp3-projects">
+                    <div class="bp3-eosjvmandeosswif">
+                        <span class="bp3-span1">eos-jvm</span><span class="bp3-span2"> and </span><span class="bp3-span3">eos-swift</span><span class="bp3-span4"> are a set libraries that streamline the process of interacting with nodeos from iOS and Android. The libraries implement; key-pair management, transaction signing, abi-byte writing, http rpc requests and more.</span>
+                    </div>
+                    <a href="https://github.com/memtrip/eos-jvm" target="_blank">
+                        <div class="bp3-rectangle">
+                        </div>
+                    </a>
+                    <a href="https://github.com/memtrip/eos-swift" target="_blank">
+                        <div class="bp3-rectanglecopy">
+                        </div>
+                    </a>
+                    <div class="bp3-projects1">
+                        Projects
+                    </div>
+                    <div class="bp3-rectangle4">
+                    </div>
+                    <div class="bp3-libraries">
+                        Libraries
+                    </div>
+                    <div class="bp3-eosreach">
+                        <div class="bp3-screen1">
+                            <div class="bp3-mask">
+                            </div>
+                            <img anima-src="./img/desktop-img0013.png" class="bp3-img0013" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <div class="bp3-mask1">
+                            </div>
+                        </div>
+                        <div class="bp3-text-layout-container">
+                            <div class="bp3-text">
+                                <div class="bp3-eosreachisanopen">
+                                    <span class="bp3-span1">EOS REACH</span><span class="bp3-span2"> is an open source mobile wallet for iOS and Android. Our wallet implements all the core features of the EOS blockchain, including; voting, delegate/undelegate bandwidth, buy/sell ram, action history, token transfer and airdrop tokens. </span>
+                                </div>
+                                <div class="bp3-group4">
+                                    <div class="bp3-group17">
+                                        <div class="bp3-group3">
+                                            <img anima-src="./img/desktop-hd-group-3@2x.png" class="bp3-group31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <img anima-src="./img/tablet-portrait-fill-4 1@2x.png" class="bp3-fill4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <img anima-src="./img/desktop-hd-fill-6@2x.png" class="bp3-fill6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <img anima-src="./img/desktop-hd-fill-8@2x.png" class="bp3-fill8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <img anima-src="./img/desktop-hd-fill-10@2x.png" class="bp3-fill10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <div class="bp3-group14">
+                                            <img anima-src="./img/tablet-portrait-group-14@2x.png" class="bp3-group141" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <img anima-src="./img/desktop-fill-15@2x.png" class="bp3-fill15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                    <div class="bp3-group5">
+                                        <a href="https://github.com/memtrip/eosreach-ios" target="_blank">
+                                            <div class="bp3-andeosreachios">
+                                                <span class="bp3-span1">and</span><span class="bp3-span2"> eosreach-ios</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://github.com/memtrip/eosreach-android" target="_blank">
+                                            <div class="bp3-eosreachandroid">
+                                                eosreach-android
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bp3-group2">
+                                    <a href="https://itunes.apple.com/us/app/eos-reach-eos-wallet/id1444511797" target="_blank">
+                                        <img anima-src="./img/desktop-downloadontheappstorebadgeus-ukblk092917.png" class="bp3-downloadontheappstorebadgeusukblk092917" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.memtrip.eosreach" target="_blank">
+                                        <img anima-src="./img/desktop-hd-google-play.png" class="bp3-googleplay" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp3-whoweare">
+                    <div class="bp3-whoweare1">
+                        Who we are
+                    </div>
+                    <div class="bp3-rectangle4copy">
+                    </div>
+                    <div class="bp3-weareindustryprof">
+                        We are industry professionals experienced in developing mobile software solutions for banks and fintech firms in the UK. Our mission is to develop high quality mobile applications that consume the EOS blockchain, we believe a mobile first strategy will drive the mass adoption of EOS.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bp4-desktop">
+            <img anima-src="./img/desktop-hd-rectangle-2-copy.png" class="bp4-rectangle2copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="bp4-illustration">
+                <img anima-src="./img/tablet-portrait-rectangle-2.png" class="bp4-rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-giant1-memtrip@2x.png" class="bp4-giant1memtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-giant2-memtrip@2x.png" class="bp4-giant2memtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-blueprint-memtrip@2x.png" class="bp4-blueprintmemtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/desktop-hd-chisel-memtrip@2x.png" class="bp4-chiselmemtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            </div>
+            <div class="bp4-content">
+                <img anima-src="./img/desktop-asset-1@2x.png" class="bp4-asset1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="bp4-people">
+                    <div class="bp4-people1">
+                        People
+                    </div>
+                    <div class="bp4-rectangle4copy2">
+                    </div>
+                    <div class="bp4-sam">
+                        <div class="bp4-sam1">
+                            <img anima-src="./img/desktop-hd-sam@2x.png" class="bp4-sam2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp4-info">
+                            <a href="https://www.linkedin.com/in/samuel-kirton-5a394255/" target="_blank">
+                                <div class="bp4-samuelkirtonsoft">
+                                    <span class="bp4-span1">Samuel Kirton</span><span class="bp4-span2"> / Software Developer</span>
+                                </div>
+                            </a>
+                            <div class="bp4-experiencedmobilea">
+                                Experienced mobile app / software developer seeking out the most robust reactive architectures. Sam has played a vital role in delivering multiple end-to-end mobile solutions to major banking and fintech clients in the UK.
+                            </div>
+                            <a href="mailto:sam@memtrip.com" target="_blank">
+                                <div class="bp4-sammemtripcom">
+                                    sam@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bp4-angie">
+                        <div class="bp4-angie1">
+                            <img anima-src="./img/desktop-hd-angie@2x.png" class="bp4-angie2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp4-info">
+                            <a href="https://www.linkedin.com/in/newtonangie/" target="_blank">
+                                <div class="bp4-angienewtonuser">
+                                    <span class="bp4-span1">Angie Newton</span><span class="bp4-span2"> / User Experience &amp; Design</span>
+                                </div>
+                            </a>
+                            <div class="bp4-amultidisciplined">
+                                A multi disciplined designer looking to bridge the gap between technical solutions and real world problems. Angie creates brands, interfaces and design strategies that encourage people to embrace new platforms and technologies.
+                            </div>
+                            <a href="mailto:angie@memtrip.com" target="_blank">
+                                <div class="bp4-angiememtripcom">
+                                    angie@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp4-thewheelputthegicopy">
+                    The wheel put the giants out of business.
+                </div>
+                <div class="bp4-icons">
+                    <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                        <div class="bp4-telegram">
+                            <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                                <img anima-src="./img/desktop-hd-telegram@2x.png" class="bp4-telegram1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </a>
+                        </div>
+                    </a>
+                    <a href="https://github.com/memtrip" target="_blank">
+                        <img anima-src="./img/desktop-hd-github-mark-light-120px-plus@2x.png" class="bp4-githubmarklight120pxplus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <a href="https://twitter.com/memtrip" target="_blank">
+                        <img anima-src="./img/desktop-twitter-logo-silhouette@2x.png" class="bp4-twitterlogosilhouette" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </a>
+                    <a href="https://steemit.com/@memtrip" target="_blank">
+                        <div class="bp4-steemitlogo">
+                            <img anima-src="./img/tablet-portrait-shape 17@2x.png" class="bp4-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                    </a>
+                </div>
+                <div class="bp4-intro">
+                    <div class="bp4-thefutureofdapps">
+                        The future of DApps is mobile.
+                    </div>
+                    <div class="bp4-rectangle4">
+                    </div>
+                    <div class="bp4-memtripisatthefo">
+                        memtrip is at the forefront of EOS mobile app development. We develop open source apps and libraries, with every release we bring EOS closer to mass market adoption.
+                    </div>
+                    <a href="https://www.memtrip.com/code_of_conduct.html" target="_blank">
+                        <div class="bp4-group">
+                            <div class="bp4-rectangle4copy3">
+                            </div>
+                            <div class="bp4-votememtripblock">
+                                <span class="bp4-span1">VOTE memtripbloc</span><span class="bp4-span2">k</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="bp4-projects">
+                    <div class="bp4-eosjvmandeosswif">
+                        <span class="bp4-span1">eos-jvm</span><span class="bp4-span2"> and </span><span class="bp4-span3">eos-swift</span><span class="bp4-span4"> are a set libraries that streamline the process of interacting with nodeos from iOS and Android. The libraries implement; key-pair management, transaction signing, abi-byte writing, http rpc requests and more.</span>
+                    </div>
+                    <a href="https://github.com/memtrip/eos-jvm" target="_blank">
+                        <div class="bp4-rectangle">
+                        </div>
+                    </a>
+                    <a href="https://github.com/memtrip/eos-swift" target="_blank">
+                        <div class="bp4-rectanglecopy">
+                        </div>
+                    </a>
+                    <div class="bp4-projects1">
+                        Projects
+                    </div>
+                    <div class="bp4-rectangle4">
+                    </div>
+                    <div class="bp4-libraries">
+                        Libraries
+                    </div>
+                    <div class="bp4-eosreach">
+                        <div class="bp4-screen1">
+                            <div class="bp4-mask">
+                            </div>
+                            <img anima-src="./img/desktop-img0013.png" class="bp4-img0013" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <div class="bp4-mask1">
+                            </div>
+                        </div>
+                        <div class="bp4-text-layout-container">
+                            <div class="bp4-text">
+                                <div class="bp4-eosreachisanopen">
+                                    <span class="bp4-span1">EOS REACH</span><span class="bp4-span2"> is an open source mobile wallet for iOS and Android. Our wallet implements all the core features of the EOS blockchain, including; voting, delegate/undelegate bandwidth, buy/sell ram, action history, token transfer and airdrop tokens. </span>
+                                </div>
+                                <div class="bp4-group4">
+                                    <div class="bp4-group17">
+                                        <div class="bp4-group3">
+                                            <img anima-src="./img/desktop-hd-group-3@2x.png" class="bp4-group31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <img anima-src="./img/tablet-portrait-fill-4 1@2x.png" class="bp4-fill4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <img anima-src="./img/desktop-hd-fill-6@2x.png" class="bp4-fill6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <img anima-src="./img/desktop-hd-fill-8@2x.png" class="bp4-fill8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <img anima-src="./img/desktop-hd-fill-10@2x.png" class="bp4-fill10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        <div class="bp4-group14">
+                                            <img anima-src="./img/tablet-portrait-group-14@2x.png" class="bp4-group141" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <img anima-src="./img/desktop-fill-15@2x.png" class="bp4-fill15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                    <div class="bp4-group5">
+                                        <a href="https://github.com/memtrip/eosreach-ios" target="_blank">
+                                            <div class="bp4-andeosreachios">
+                                                <span class="bp4-span1">and</span><span class="bp4-span2"> eosreach-ios</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://github.com/memtrip/eosreach-android" target="_blank">
+                                            <div class="bp4-eosreachandroid">
+                                                eosreach-android
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="bp4-group2">
+                                    <a href="https://itunes.apple.com/us/app/eos-reach-eos-wallet/id1444511797" target="_blank">
+                                        <img anima-src="./img/desktop-downloadontheappstorebadgeus-ukblk092917.png" class="bp4-downloadontheappstorebadgeusukblk092917" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.memtrip.eosreach" target="_blank">
+                                        <div class="bp4-googleplay">
+                                            <div class="bp4-rectanglepath">
+                                            </div>
+                                            <img anima-src="./img/tablet-portrait-shape@2x.png" class="bp4-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/mobile-portrait-shape 1@2x.png" class="bp4-shape1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/desktop-shape 3@2x.png" class="bp4-shape2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/desktop-shape 4@2x.png" class="bp4-shape3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/tablet-portrait-shape 4@2x.png" class="bp4-shape4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/tablet-portrait-shape 5@2x.png" class="bp4-shape5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/mobile-portrait-shape 6@2x.png" class="bp4-shape6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/desktop-shape 8@2x.png" class="bp4-shape7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/tablet-portrait-shape 8@2x.png" class="bp4-shape8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/desktop-shape 10@2x.png" class="bp4-shape9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/mobile-portrait-shape 10@2x.png" class="bp4-shape10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/desktop-shape 12@2x.png" class="bp4-shape11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/mobile-portrait-shape 12@2x.png" class="bp4-shape12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/tablet-portrait-shape 13@2x.png" class="bp4-shape13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/mobile-portrait-shape 14@2x.png" class="bp4-shape14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/tablet-portrait-shape 15@2x.png" class="bp4-shape15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/mobile-portrait-shape 16@2x.png" class="bp4-shape16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bp4-whoweare">
+                    <div class="bp4-whoweare1">
+                        Who we are
+                    </div>
+                    <div class="bp4-rectangle4copy">
+                    </div>
+                    <div class="bp4-weareindustryprof">
+                        We are industry professionals experienced in developing mobile software solutions for banks and fintech firms in the UK. Our mission is to develop high quality mobile applications that consume the EOS blockchain, we believe a mobile first strategy will drive the mass adoption of EOS.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bp1-tabletportrait">
+            <div style="width: 768px; height: 100%; position:relative; margin:auto;">
+                <div class="bp1-illustration">
+                    <img anima-src="./img/tablet-portrait-rectangle-2.png" class="bp1-rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp1-characters">
+                        <img anima-src="./img/tablet-portrait-giant2-memtrip@2x.png" class="bp1-giant2memtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="./img/tablet-portrait-chisel-memtrip@2x.png" class="bp1-chiselmemtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                </div>
+                <div class="bp1-content">
+                    <img anima-src="./img/desktop-asset-1@2x.png" class="bp1-asset1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp1-group5">
+                        <div class="bp1-memtripisatthefo">
+                            memtrip is at the forefront of EOS mobile app development. We develop open source apps and libraries, with every release we bring EOS closer to mass market adoption.
+                        </div>
+                        <div class="bp1-thefutureofdapps">
+                            The future of DApps is mobile.
+                        </div>
+                        <div class="bp1-rectangle4">
+                        </div>
+                        <a href="https://www.memtrip.com/code_of_conduct.html" target="_blank">
+                            <div class="bp1-group">
+                                <div class="bp1-rectangle4copy3">
+                                </div>
+                                <div class="bp1-votememtripblock">
+                                    <span class="bp1-span1">VOTE memtripbloc</span><span class="bp1-span2">k</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bp1-whowearecopy2">
+                        <div class="bp1-whoweare">
+                            Who we are
+                        </div>
+                        <div class="bp1-rectangle4copy">
+                        </div>
+                        <div class="bp1-weareindustryprof">
+                            We are industry professionals experienced in developing mobile software solutions for banks and fintech firms in the UK. Our mission is to develop high quality mobile applications that consume the EOS blockchain, we believe a mobile first strategy will drive the mass adoption of EOS.
+                        </div>
+                    </div>
+                    <div class="bp1-thewheelputthegicopy">
+                        The wheel put the giants out of business.
+                    </div>
+                    <div class="bp1-peoplecopy2">
+                        <div class="bp1-people">
+                            People
+                        </div>
+                        <div class="bp1-rectangle4copy2">
+                        </div>
+                        <div class="bp1-group2">
+                            <div class="bp1-experiencedmobilea">
+                                Experienced mobile app / software developer seeking out the most robust reactive architectures. Sam has played a vital role in delivering multiple end-to-end mobile solutions to major banking and fintech clients in the UK.
+                            </div>
+                            <a href="https://www.linkedin.com/in/samuel-kirton-5a394255/" target="_blank">
+                                <div class="bp1-samuelkirtonsoft">
+                                    <span class="bp1-span1">Samuel Kirton</span><span class="bp1-span2"> / Software Developer</span>
+                                </div>
+                            </a>
+                            <a href="mailto:sam@memtrip.com" target="_blank">
+                                <div class="bp1-sammemtripcom">
+                                    sam@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bp1-group4">
+                            <div class="bp1-amultidisciplined">
+                                A multi disciplined designer looking to bridge the gap between technical solutions and real world problems. Angie creates brands, interfaces and design strategies that encourage people to embrace new platforms and technologies.
+                            </div>
+                            <a href="https://www.linkedin.com/in/newtonangie/" target="_blank">
+                                <div class="bp1-angienewtonuser">
+                                    <span class="bp1-span1">Angie Newton</span><span class="bp1-span2"> / User Experience &amp; Design</span>
+                                </div>
+                            </a>
+                            <a href="mailto:angie@memtrip.com" target="_blank">
+                                <div class="bp1-angiememtripcom">
+                                    angie@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bp1-sam">
+                            <img anima-src="./img/desktop-hd-sam@2x.png" class="bp1-sam1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp1-angie">
+                            <img anima-src="./img/desktop-hd-angie@2x.png" class="bp1-angie1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                    </div>
+                    <div class="bp1-group6">
+                        <div class="bp1-eosreachisanopen">
+                            <span class="bp1-span1">EOS REACH</span><span class="bp1-span2"> is an open source mobile wallet for iOS and Android. Our wallet implements all the core features of the EOS blockchain, including; voting, delegate/undelegate bandwidth, buy/sell ram, action history, token transfer and airdrop tokens. </span>
+                        </div>
+                        <div class="bp1-projects">
+                            Projects
+                        </div>
+                        <div class="bp1-rectangle4">
+                        </div>
+                        <a href="https://itunes.apple.com/us/app/eos-reach-eos-wallet/id1444511797" target="_blank">
+                            <div class="bp1-downloadontheappstorebadgeusukblk092917">
+                                <div class="bp1-group3">
+                                    <img anima-src="./img/tablet-portrait-group-3@2x.png" class="bp1-group31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                                <img anima-src="./img/tablet-portrait-fill-4@2x.png" class="bp1-fill4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-5@2x.png" class="bp1-fill5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-6@2x.png" class="bp1-fill6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-7@2x.png" class="bp1-fill7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-8@2x.png" class="bp1-fill8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-9@2x.png" class="bp1-fill9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-10 1@2x.png" class="bp1-fill10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-11@2x.png" class="bp1-fill11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-12@2x.png" class="bp1-fill12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-13@2x.png" class="bp1-fill13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-14@2x.png" class="bp1-fill14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-15 1@2x.png" class="bp1-fill15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-16@2x.png" class="bp1-fill16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-17@2x.png" class="bp1-fill17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-18@2x.png" class="bp1-fill18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-19@2x.png" class="bp1-fill19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-16@2x.png" class="bp1-fill20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-21@2x.png" class="bp1-fill21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-22@2x.png" class="bp1-fill22" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-16@2x.png" class="bp1-fill23" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-18@2x.png" class="bp1-fill24" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-25@2x.png" class="bp1-fill25" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-26@2x.png" class="bp1-fill26" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-27@2x.png" class="bp1-fill27" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </a>
+                        <div class="bp1-screen1">
+                            <div class="bp1-mask">
+                            </div>
+                            <img anima-src="./img/tablet-portrait-img0013.png" class="bp1-img0013" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <div class="bp1-mask1">
+                            </div>
+                        </div>
+                        <div class="bp1-group17">
+                            <div class="bp1-group3">
+                                <img anima-src="./img/desktop-hd-group-3@2x.png" class="bp1-group31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <img anima-src="./img/tablet-portrait-fill-4 1@2x.png" class="bp1-fill4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/desktop-hd-fill-6@2x.png" class="bp1-fill6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/desktop-hd-fill-8@2x.png" class="bp1-fill8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/desktop-hd-fill-10@2x.png" class="bp1-fill10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <div class="bp1-group14">
+                                <img anima-src="./img/tablet-portrait-group-14@2x.png" class="bp1-group141" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <img anima-src="./img/desktop-fill-15@2x.png" class="bp1-fill15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp1-group51">
+                            <a href="https://github.com/memtrip/eosreach-ios" target="_blank">
+                                <div class="bp1-andeosreachios">
+                                    <span class="bp1-span1">and</span><span class="bp1-span2"> eosreach-ios</span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/memtrip/eosreach-android" target="_blank">
+                                <div class="bp1-eosreachandroid">
+                                    eosreach-android
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bp1-group7">
+                            <div class="bp1-eosjvmandeosswif">
+                                <span class="bp1-span1">eos-jvm</span><span class="bp1-span2"> and </span><span class="bp1-span3">eos-swift</span><span class="bp1-span4"> are a set libraries that streamline the process of interacting with nodeos from iOS and Android. The libraries implement; key-pair management, transaction signing, abi-byte writing, http rpc requests and more.</span>
+                            </div>
+                            <a href="https://github.com/memtrip/eos-jvm" target="_blank">
+                                <div class="bp1-rectangle">
+                                </div>
+                            </a>
+                            <a href="https://github.com/memtrip/eos-swift" target="_blank">
+                                <div class="bp1-rectanglecopy">
+                                </div>
+                            </a>
+                            <div class="bp1-libraries">
+                                Libraries
+                            </div>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.memtrip.eosreach" target="_blank">
+                            <div class="bp1-googleplay">
+                                <div class="bp1-rectanglepath">
+                                </div>
+                                <img anima-src="./img/tablet-portrait-shape@2x.png" class="bp1-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 1@2x.png" class="bp1-shape1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 3@2x.png" class="bp1-shape2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 4@2x.png" class="bp1-shape3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 4@2x.png" class="bp1-shape4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 5@2x.png" class="bp1-shape5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 6@2x.png" class="bp1-shape6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 8@2x.png" class="bp1-shape7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 8@2x.png" class="bp1-shape8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 10@2x.png" class="bp1-shape9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 10@2x.png" class="bp1-shape10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 12@2x.png" class="bp1-shape11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 12@2x.png" class="bp1-shape12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 13@2x.png" class="bp1-shape13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 14@2x.png" class="bp1-shape14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 15@2x.png" class="bp1-shape15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 16@2x.png" class="bp1-shape16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bp1-icons">
+                        <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                            <div class="bp1-telegram">
+                                <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                                    <img anima-src="./img/desktop-hd-telegram@2x.png" class="bp1-telegram1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </a>
+                            </div>
+                        </a>
+                        <a href="https://github.com/memtrip" target="_blank">
+                            <img anima-src="./img/desktop-hd-github-mark-light-120px-plus@2x.png" class="bp1-githubmarklight120pxplus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <a href="https://twitter.com/memtrip" target="_blank">
+                            <img anima-src="./img/desktop-twitter-logo-silhouette@2x.png" class="bp1-twitterlogosilhouette" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <a href="https://steemit.com/@memtrip" target="_blank">
+                            <div class="bp1-steemitlogo">
+                                <img anima-src="./img/tablet-portrait-shape 17@2x.png" class="bp1-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bp2-mobileportrait">
+            <div style="width: 320px; height: 100%; position:relative; margin:auto;">
+                <div class="bp2-illustrationcopy">
+                    <img anima-src="./img/mobile-portrait-rectangle-2.png" class="bp2-rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp2-characters">
+                        <img anima-src="./img/mobile-portrait-giant2-memtrip@2x.png" class="bp2-giant2memtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="./img/mobile-portrait-chisel-memtrip@2x.png" class="bp2-chiselmemtrip" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                </div>
+                <div class="bp2-content">
+                    <img anima-src="./img/mobile-portrait-asset-1-copy@2x.png" class="bp2-asset1copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp2-group5">
+                        <div class="bp2-memtripisatthefocopy">
+                            memtrip is at the forefront of EOS mobile app development. We develop open source apps and libraries, with every release we bring EOS closer to mass market adoption.
+                        </div>
+                        <div class="bp2-thefutureofdappscopy">
+                            The future of DApps is mobile.
+                        </div>
+                        <div class="bp2-rectangle4copy6">
+                        </div>
+                        <a href="https://www.memtrip.com/code_of_conduct.html" target="_blank">
+                            <div class="bp2-group">
+                                <div class="bp2-rectangle4copy5">
+                                </div>
+                                <div class="bp2-votememtripblockcopy">
+                                    <span class="bp2-span1">VOTE memtripbloc</span><span class="bp2-span2">k</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bp2-whowearecopy3">
+                        <div class="bp2-weareindustryprof">
+                            We are industry professionals experienced in developing mobile software solutions for banks and fintech firms in the UK. Our mission is to develop high quality mobile applications that consume the EOS blockchain, we believe a mobile first strategy will drive the mass adoption of EOS.
+                        </div>
+                        <div class="bp2-whoweare">
+                            Who we are
+                        </div>
+                        <div class="bp2-rectangle4copy">
+                        </div>
+                    </div>
+                    <div class="bp2-thewheelputthegicopy">
+                        The wheel put the giants out of business.
+                    </div>
+                    <div class="bp2-peoplecopy3">
+                        <div class="bp2-people">
+                            People
+                        </div>
+                        <div class="bp2-rectangle4copy2">
+                        </div>
+                        <div class="bp2-sam">
+                            <div class="bp2-experiencedmobilea">
+                                Experienced mobile app / software developer seeking out the most robust reactive architectures. Sam has played a vital role in delivering multiple end-to-end mobile solutions to major banking and fintech clients in the UK.
+                            </div>
+                            <div class="bp2-softwaredeveloper">
+                                Software Developer
+                            </div>
+                            <a href="https://www.linkedin.com/in/samuel-kirton-5a394255/" target="_blank">
+                                <div class="bp2-samuelkirton">
+                                    Samuel Kirton
+                                </div>
+                            </a>
+                            <a href="mailto:sam@memtrip.com" target="_blank">
+                                <div class="bp2-sammemtripcom">
+                                    sam@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bp2-angie">
+                            <div class="bp2-amultidisciplined">
+                                A multi disciplined designer looking to bridge the gap between technical solutions and real world problems. Angie creates brands, interfaces and design strategies that encourage people to embrace new platforms and technologies.
+                            </div>
+                            <div class="bp2-userexperiencede">
+                                User Experience &amp; Design
+                            </div>
+                            <a href="https://www.linkedin.com/in/newtonangie/" target="_blank">
+                                <div class="bp2-angienewton">
+                                    Angie Newton
+                                </div>
+                            </a>
+                            <a href="mailto:angie@memtrip.com" target="_blank">
+                                <div class="bp2-angiememtripcom">
+                                    angie@memtrip.com
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bp2-projects">
+                        <div class="bp2-eosreachisanopen">
+                            <span class="bp2-span1">EOS REACH</span><span class="bp2-span2"> </span><span class="bp2-span3">is an open source mobile wallet for iOS and Android. Our wallet implements all the core features of the EOS blockchain, including; voting, delegate/undelegate bandwidth, buy/sell ram, action history, token transfer and airdrop tokens. </span>
+                        </div>
+                        <div class="bp2-eosjvmandeosswif">
+                            <span class="bp2-span1">eos-jvm</span><span class="bp2-span2"> </span><span class="bp2-span3">and</span><span class="bp2-span4"> </span><span class="bp2-span5">eos-swift</span><span class="bp2-span6"> </span><span class="bp2-span7">are a set libraries that streamline the process of interacting with nodeos from iOS and Android. The libraries implement; key-pair management, transaction signing, abi-byte writing, http rpc requests and more.</span>
+                        </div>
+                        <a href="https://github.com/memtrip/eos-jvm" target="_blank">
+                            <div class="bp2-rectangle">
+                            </div>
+                        </a>
+                        <a href="https://github.com/memtrip/eos-swift" target="_blank">
+                            <div class="bp2-rectanglecopy">
+                            </div>
+                        </a>
+                        <div class="bp2-projectscopy">
+                            Projects
+                        </div>
+                        <div class="bp2-rectangle4copy4">
+                        </div>
+                        <div class="bp2-group17copy">
+                            <div class="bp2-group3">
+                                <img anima-src="./img/desktop-hd-group-3@2x.png" class="bp2-group31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <img anima-src="./img/tablet-portrait-fill-4 1@2x.png" class="bp2-fill4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/desktop-hd-fill-6@2x.png" class="bp2-fill6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/desktop-hd-fill-8@2x.png" class="bp2-fill8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="./img/desktop-hd-fill-10@2x.png" class="bp2-fill10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <div class="bp2-group14">
+                                <img anima-src="./img/tablet-portrait-group-14@2x.png" class="bp2-group141" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <img anima-src="./img/desktop-fill-15@2x.png" class="bp2-fill15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="bp2-group51">
+                            <a href="https://github.com/memtrip/eosreach-ios" target="_blank">
+                                <div class="bp2-andeosreachios">
+                                    <span class="bp2-span1">and</span><span class="bp2-span2"> eosreach-ios</span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/memtrip/eosreach-android" target="_blank">
+                                <div class="bp2-eosreachandroid">
+                                    eosreach-android
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bp2-librariescopy">
+                            Libraries
+                        </div>
+                        <a href="https://itunes.apple.com/us/app/eos-reach-eos-wallet/id1444511797" target="_blank">
+                            <div class="bp2-downloadontheappstorebadgeusukblk092917copy">
+                                <div class="bp2-group3">
+                                    <img anima-src="./img/tablet-portrait-group-3@2x.png" class="bp2-group31" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                                <img anima-src="./img/tablet-portrait-fill-4@2x.png" class="bp2-fill4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-5@2x.png" class="bp2-fill5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-6@2x.png" class="bp2-fill6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-7@2x.png" class="bp2-fill7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-8@2x.png" class="bp2-fill8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-9@2x.png" class="bp2-fill9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-10 1@2x.png" class="bp2-fill10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-11@2x.png" class="bp2-fill11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-12@2x.png" class="bp2-fill12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-13@2x.png" class="bp2-fill13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-14@2x.png" class="bp2-fill14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-15 1@2x.png" class="bp2-fill15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-16@2x.png" class="bp2-fill16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-17@2x.png" class="bp2-fill17" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-18@2x.png" class="bp2-fill18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-19@2x.png" class="bp2-fill19" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-16@2x.png" class="bp2-fill20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-21@2x.png" class="bp2-fill21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-22@2x.png" class="bp2-fill22" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-16@2x.png" class="bp2-fill23" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-18@2x.png" class="bp2-fill24" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-fill-25@2x.png" class="bp2-fill25" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-26@2x.png" class="bp2-fill26" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-fill-27@2x.png" class="bp2-fill27" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.memtrip.eosreach" target="_blank">
+                            <div class="bp2-googleplay">
+                                <div class="bp2-rectanglepath">
+                                </div>
+                                <img anima-src="./img/tablet-portrait-shape@2x.png" class="bp2-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 1@2x.png" class="bp2-shape1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 3@2x.png" class="bp2-shape2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 4@2x.png" class="bp2-shape3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 4@2x.png" class="bp2-shape4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 5@2x.png" class="bp2-shape5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 6@2x.png" class="bp2-shape6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 8@2x.png" class="bp2-shape7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 8@2x.png" class="bp2-shape8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 10@2x.png" class="bp2-shape9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 10@2x.png" class="bp2-shape10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/desktop-shape 12@2x.png" class="bp2-shape11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 12@2x.png" class="bp2-shape12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 13@2x.png" class="bp2-shape13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 14@2x.png" class="bp2-shape14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/tablet-portrait-shape 15@2x.png" class="bp2-shape15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="./img/mobile-portrait-shape 16@2x.png" class="bp2-shape16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bp2-icons">
+                        <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                            <div class="bp2-telegram">
+                                <a href="https://t.me/joinchat/JcIXl0x7wC9cRI5uF_EiQA" target="_blank">
+                                    <img anima-src="./img/mobile-portrait-telegram@2x.png" class="bp2-telegram1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </a>
+                            </div>
+                        </a>
+                        <a href="https://github.com/memtrip" target="_blank">
+                            <img anima-src="./img/mobile-portrait-github-mark-light-120px-plus@2x.png" class="bp2-githubmarklight120pxplus" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <a href="https://twitter.com/memtrip" target="_blank">
+                            <img anima-src="./img/mobile-portrait-twitter-logo-silhouette@2x.png" class="bp2-twitterlogosilhouette" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <a href="https://steemit.com/@memtrip" target="_blank">
+                            <div class="bp2-steemitlogo">
+                                <img anima-src="./img/mobile-portrait-shape 17@2x.png" class="bp2-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
 </html>
