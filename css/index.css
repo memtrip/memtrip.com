@@ -70,7 +70,7 @@ div#container {
 	right: 0;
 
 	margin-top: 88px;
-	width: 990px;
+	width: 1180px;
 	height: 2165px;
 }
 
@@ -80,10 +80,12 @@ div#content_col  {
 }
 	.content_logo {
 		margin: 0px;
+		width: 246px;
+		height: 165px;
 	}
 
 	.content_title {
-		margin-top: 32px;
+		margin-top: 64px;
 		width: 380px;
 	}
 
@@ -96,7 +98,7 @@ div#content_col  {
 	}
 
 	.content_blurb {
-		margin-top: 374px;
+		margin-top: 332px;
 	}
 		.content_blurb p {
 			margin-top: 16px;
@@ -157,7 +159,7 @@ div#design_col {
 	height: 224px;
 }
 
-@media (max-width: 996px) {
+@media (max-width: 1180px) {
 
 	div#container {
 		background: none;
@@ -173,6 +175,8 @@ div#design_col {
 	}
 		.content_logo {
 			margin-left: 29px;
+			width: 176px;
+			height: 118px;
 		}
 
 		.content_title {
